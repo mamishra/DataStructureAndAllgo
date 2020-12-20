@@ -1,0 +1,25 @@
+
+
+Stack
+LIFO - Last In First Out
+(Abstract Data Type)
+
+Stack ADT is a list that allows all data operations at one end only.
+At any given time, we can only access the top element of the stack.
+This feature makes it LIFO data structure.
+
+Operations :
+
+1. push(x) : adds to top
+2. pop() : removes top element
+3. top() : returns top element
+4. isEmpty() : return true if empty
+
+All operation time complexity : O(1)
+
+Application of Stack :
+
+1. Recursion
+2. Undo-Redo
+3. Balance Parenthesis
+

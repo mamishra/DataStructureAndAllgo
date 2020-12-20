@@ -1,0 +1,24 @@
+
+
+Queue
+FIFO : First In First Out
+(Abstract Data Type)
+
+A List of collection with the restriction that insertion can be performed at one end (rear)
+and deletion can be performed at other end (front).
+This feature makes it FIFO data structure.
+
+This feature makes it LIFO data structure.
+
+Operations :
+
+1. enqueue(x) : adds to front
+2. dequeue() : removes from rear
+3. front() : returns front element
+4. isEmpty() : return true if empty
+
+All operation time complexity : O(1)
+
+Application :
+
+Request queuing system
