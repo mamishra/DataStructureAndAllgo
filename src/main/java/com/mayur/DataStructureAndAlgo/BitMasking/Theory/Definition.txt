@@ -1,0 +1,65 @@
+
+Bitwise Operators
+=============================
+
+
+-----Bitwise AND (&) :
+
+    a   b   a&b
+    0   0    0
+    0   1    0
+    1   0    0
+    1   1    1
+
+-----Bitwise OR (|) :
+
+    a   b   a|b
+    0   0    0
+    0   1    1
+    1   0    1
+    1   1    1
+
+-----Bitwise XOR (^) :
+
+    a   b   a^b
+    0   0    0
+    0   1    1
+    1   0    1
+    1   1    0
+
+-----Bitwise NOT (~) :
+
+    a   ~a
+    0   1
+    1   0
+
+-----Bitwise Left Shift (<<) :
+
+eg , 5 << 1 -> 00000101 << 1 = 00001010 => 5 << 1 = 10
+     5 << 2 -> 00000101 << 2 = 00010100 => 5 << 2 = 20
+
+Note ; a << n = (a * 2^n)
+
+-----Bitwise Right Shift (>>) :
+
+eg , 5 >> 1 -> 00000101 >> 1 = 00000010 => 5 >> 1 = 2
+     5 >> 2 -> 00000101 >> 2 = 00000001 => 5 >> 2 = 1
+
+Note ; a >> n = (a / 2^n)
+
+----- 2-s Compliment :
+
+    Can be used to convert a number into its negative form.
+
+    (-a) = (~a)+1;
+
+     5 = 00000101
+    ~5 = 11111010
+    ~5 + 1 = 11111011 = -5
+
+
+Time Comparision :
+
+    (*) and (/) takes O(n^2) time
+    (%) takes O(n^3) time
+    Bitwise operators take O(n) time
