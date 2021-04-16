@@ -8,7 +8,6 @@ A List of collection with the restriction that insertion can be performed at one
 and deletion can be performed at other end (front).
 This feature makes it FIFO data structure.
 
-This feature makes it LIFO data structure.
 
 Operations :
 

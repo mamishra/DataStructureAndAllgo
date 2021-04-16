@@ -1,0 +1,28 @@
+
+Dynamic Programming :
+
+1. Memoization
+
+2. Tabulation
+
+
+Memoization Way :
+
+1. Make it work :
+- visualize the problem as a tree
+- implement the tree using recursion
+- test it
+2. Make it Efficient :
+- add a memo object
+- add a base c case to return memo value
+- store return value into the memo
+
+
+Tabulation Way :
+
+- visualize the problem as a table
+- size the table based on inputs
+- initialize the table based on inputs
+- seed the trivial answer into the table (base cases)
+- iterate through the table
+- fill further positions based on current position

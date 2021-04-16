@@ -1,0 +1,3 @@
+
+
+Its mostly a recursive call where we delete the history or the traversed path in case of no solution.
